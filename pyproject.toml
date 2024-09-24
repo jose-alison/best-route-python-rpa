@@ -1,0 +1,21 @@
+[project]
+name = "google-maps"
+version = "0.1.0"
+description = "Automação usando selenium para roterização com Google Maps [Aprendizado]"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pulp>=2.9.0",
+    "selenium>=4.25.0",
+    "webdriver-manager>=4.0.2",
+]
+
+[tool]
+dev-dependencies = [
+    "ipykernel>=6.29.5",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.6.7",
+]
